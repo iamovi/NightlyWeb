@@ -19,10 +19,10 @@ NightlyWEb is a lightweight and customizable CSS and JavaScript library for addi
 Include the CSS and JS in your HTML file:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.0/dist/nightlyweb.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.1/dist/nightlyweb.min.css">
 ```
 ```html
-<script src="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.0/dist/nightlyweb.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.1/dist/nightlyweb.min.js"></script>
 ```
 
 ## Usage
@@ -67,16 +67,8 @@ If you want to change the position or size of the toggle button then >
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Example - NightlyWeb</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.0/dist/nightlyweb.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.1/dist/nightlyweb.min.css" />
     <style>
-      .NightlyWeb {
-        z-index: 999999999;
-        position: fixed;
-        top: 35px;
-        right: 140px;
-        cursor: pointer;
-        user-select: none;
-      }
       body {
         font-family: Arial, sans-serif;
         margin: 20px auto;
@@ -175,7 +167,7 @@ If you want to change the position or size of the toggle button then >
         Made by Maruf OVi
       </p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.0/dist/nightlyweb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.1/dist/nightlyweb.min.js"></script>
   </body>
 </html>
 ```

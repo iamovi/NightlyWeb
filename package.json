@@ -1,8 +1,8 @@
 {
   "name": "nightlyweb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Give your website dark-mode using NightlyWeb library.",
-  "main": "nightlyweb.min.css",
+  "main": "dist/nightlyweb.min.css",
   "scripts": {
     "test": ""
   },
