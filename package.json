@@ -1,0 +1,26 @@
+{
+  "name": "nightlyweb",
+  "version": "1.0.0",
+  "description": "Give your website dark-mode using NightlyWeb library.",
+  "main": "nightlyweb.min.css",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamovi/NightlyWeb.git"
+  },
+  "keywords": [
+    "Darkmode",
+    "darkweb",
+    "darkwebsite",
+    "nightlyweb",
+    "nightlify"
+  ],
+  "author": "Maruf OVi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamovi/NightlyWeb/issues"
+  },
+  "homepage": "https://github.com/iamovi/NightlyWeb#readme"
+}

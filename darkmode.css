@@ -1,4 +1,3 @@
-/* Default light mode styles */
 body {
   background-color: #ffffff;
   color: #333333;
@@ -46,6 +45,15 @@ body.dark-mode abbr,
 body.dark-mode time,
 body.dark-mode footer {
   color: #ffffff; /* Adjust color for headings, paragraphs, links, buttons, inputs, etc. */
+}
+body.dark-mode th {
+  background-color: rgba(34, 31, 31, 0.388);
+}
+body.dark-mode nav {
+  background-color: black;
+}
+body.dark-mode header {
+  background-color: black;
 }
 
 body.dark-mode input,
@@ -115,7 +123,7 @@ body.dark-mode time {
 }
 
 body.dark-mode footer {
-  background-color: #333333; /* Adjust background color for the footer */
+  background-color: black; /* Adjust background color for the footer */
   color: #ffffff; /* Adjust text color for the footer */
 }
 
@@ -128,7 +136,8 @@ body.dark-mode footer a:hover {
 }
 
 /* Toggle switch styles */
-.toggle-switch {
+.NightlyWeb {
+  z-index: 999999999;
   position: fixed;
   top: 10px;
   right: 10px;
@@ -137,7 +146,7 @@ body.dark-mode footer a:hover {
 }
 
 /* Dark mode toggle switch styles with Unicode characters */
-.toggle-switch label::before {
+.NightlyWeb label::before {
   content: "\1F319"; /* Unicode character for moon */
   font-size: 30px;
   margin-right: 5px;
@@ -145,12 +154,12 @@ body.dark-mode footer a:hover {
 }
 
 /* Adjust Unicode character for sun */
-body.dark-mode .toggle-switch label::before {
+body.dark-mode .NightlyWeb label::before {
   content: "\1F31E"; /* Unicode character for sun */
   margin-left: 5px;
   font-size: 30px;
 }
-.toggle-switch input {
+.NightlyWeb input {
   display: none; /* Hide the checkbox */
   cursor: pointer;
 }
