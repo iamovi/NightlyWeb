@@ -1,151 +1,156 @@
 /* Default light mode styles */
 body {
-    background-color: #ffffff;
-    color: #333333;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  /* Dark mode styles */
-  body.dark-mode {
-    background-color: #333333;
-    color: #ffffff;
-  }
-  
-  /* Apply dark mode styles to specific HTML tags */
-  body.dark-mode h1,
-  body.dark-mode h2,
-  body.dark-mode h3,
-  body.dark-mode h4,
-  body.dark-mode h5,
-  body.dark-mode h6,
-  body.dark-mode p,
-  body.dark-mode a,
-  body.dark-mode button,
-  body.dark-mode input,
-  body.dark-mode select,
-  body.dark-mode textarea,
-  body.dark-mode pre,
-  body.dark-mode blockquote,
-  body.dark-mode ul,
-  body.dark-mode ol,
-  body.dark-mode li,
-  body.dark-mode dl,
-  body.dark-mode dt,
-  body.dark-mode dd,
-  body.dark-mode table,
-  body.dark-mode th,
-  body.dark-mode td,
-  body.dark-mode figure,
-  body.dark-mode figcaption,
-  body.dark-mode address,
-  body.dark-mode fieldset,
-  body.dark-mode legend,
-  body.dark-mode mark,
-  body.dark-mode code,
-  body.dark-mode abbr,
-  body.dark-mode time,
-  body.dark-mode footer {
-    color: #ffffff; /* Adjust color for headings, paragraphs, links, buttons, inputs, etc. */
-  }
-  body.dark-mode input,
+  background-color: #ffffff;
+  color: #333333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Apply dark mode styles to specific HTML tags */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode a,
+body.dark-mode button,
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea,
+body.dark-mode pre,
+body.dark-mode blockquote,
+body.dark-mode ul,
+body.dark-mode ol,
+body.dark-mode li,
+body.dark-mode dl,
+body.dark-mode dt,
+body.dark-mode dd,
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td,
+body.dark-mode figure,
+body.dark-mode figcaption,
+body.dark-mode address,
+body.dark-mode fieldset,
+body.dark-mode legend,
+body.dark-mode mark,
+body.dark-mode code,
+body.dark-mode abbr,
+body.dark-mode time,
+body.dark-mode footer {
+  color: #ffffff; /* Adjust color for headings, paragraphs, links, buttons, inputs, etc. */
+}
+
+body.dark-mode input,
 body.dark-mode textarea {
   background-color: #444444; /* Adjust background color for input boxes and textareas */
   color: #ffffff; /* Adjust text color for input boxes and textareas */
 }
 
-  body.dark-mode a:hover {
-    color: #ffcc00; /* Adjust color on hover for links */
-  }
-  
-  body.dark-mode button,
-  body.dark-mode input[type="submit"],
-  body.dark-mode input[type="reset"],
-  body.dark-mode input[type="button"],
-  body.dark-mode input[type="checkbox"],
-  body.dark-mode input[type="radio"],
-  body.dark-mode select {
-    background-color: #555555; /* Adjust background color for buttons, inputs, and select elements */
-  }
-  
-  body.dark-mode pre {
-    background-color: #444444; /* Adjust background color for pre elements (code blocks) */
-  }
-  
-  body.dark-mode blockquote {
-    border-left: 4px solid #555555; /* Adjust border color for blockquotes */
-  }
-  
-  body.dark-mode ul,
-  body.dark-mode ol {
-    color: #ffffff; /* Adjust color for list items */
-  }
-  
-  body.dark-mode dl {
-    color: #ffffff; /* Adjust color for definition list text */
-  }
-  
+body.dark-mode a:hover {
+  color: #ffcc00; /* Adjust color on hover for links */
+}
 
-  
-  /* body.dark-mode table {
-    border-collapse: collapse;
-    width: 100%;
-  } */
-  
-  body.dark-mode th,
-  body.dark-mode td {
-    border-color:#666666; 
+body.dark-mode button,
+body.dark-mode input[type="submit"],
+body.dark-mode input[type="reset"],
+body.dark-mode input[type="button"],
+body.dark-mode input[type="checkbox"],
+body.dark-mode input[type="radio"],
+body.dark-mode select {
+  background-color: #555555; /* Adjust background color for buttons, inputs, and select elements */
+}
 
-  }
-  
-  body.dark-mode figure {
-    margin: 0; /* Adjust margin for figures */
-  }
-  
-  body.dark-mode figcaption {
-    color: #aaaaaa; /* Adjust color for figure captions */
-  }
+body.dark-mode pre {
+  background-color: #444444; /* Adjust background color for pre elements (code blocks) */
+}
 
-  
-  body.dark-mode fieldset {
-    border-color:#555555; /* Adjust border color for fieldset */
+body.dark-mode blockquote {
+  border-left: 4px solid #555555; /* Adjust border color for blockquotes */
+}
 
-  }
-  
-  body.dark-mode legend {
-    color: #ffffff; /* Adjust color for legend */
-  }
-  
-  body.dark-mode mark {
-    background-color: #ffcc00; /* Adjust background color for marked text */
-  }
-  
+body.dark-mode ul,
+body.dark-mode ol {
+  color: #ffffff; /* Adjust color for list items */
+}
 
-  
+body.dark-mode dl {
+  color: #ffffff; /* Adjust color for definition list text */
+}
 
-  
-  body.dark-mode time {
-    color: #999999; /* Adjust color for time element */
-  }
-  
-  body.dark-mode footer {
-    background-color: #333333; /* Adjust background color for the footer */
-    color: #ffffff; /* Adjust text color for the footer */
-  }
-  
-  body.dark-mode footer a {
-    color: #ffcc00; /* Adjust link color in the footer */
-  }
-  
-  body.dark-mode footer a:hover {
-    color: #ffffff; /* Adjust link color on hover in the footer */
-  }
-  
-  /* Toggle switch styles */
-  .toggle-switch {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    user-select: none;
-  }
-  
+body.dark-mode th,
+body.dark-mode td {
+  border-color: #666666;
+}
+
+body.dark-mode figure {
+  margin: 0; /* Adjust margin for figures */
+}
+
+body.dark-mode figcaption {
+  color: #aaaaaa; /* Adjust color for figure captions */
+}
+
+body.dark-mode fieldset {
+  border-color: #555555; /* Adjust border color for fieldset */
+}
+
+body.dark-mode legend {
+  color: #ffffff; /* Adjust color for legend */
+}
+
+body.dark-mode mark {
+  background-color: #ffcc00; /* Adjust background color for marked text */
+}
+
+body.dark-mode time {
+  color: #999999; /* Adjust color for time element */
+}
+
+body.dark-mode footer {
+  background-color: #333333; /* Adjust background color for the footer */
+  color: #ffffff; /* Adjust text color for the footer */
+}
+
+body.dark-mode footer a {
+  color: #ffcc00; /* Adjust link color in the footer */
+}
+
+body.dark-mode footer a:hover {
+  color: #ffffff; /* Adjust link color on hover in the footer */
+}
+
+/* Toggle switch styles */
+.toggle-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Dark mode toggle switch styles with Unicode characters */
+.toggle-switch label::before {
+  content: "\1F319"; /* Unicode character for moon */
+  font-size: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Adjust Unicode character for sun */
+body.dark-mode .toggle-switch label::before {
+  content: "\1F31E"; /* Unicode character for sun */
+  margin-left: 5px;
+  font-size: 30px;
+}
+.toggle-switch input {
+  display: none; /* Hide the checkbox */
+  cursor: pointer;
+}
