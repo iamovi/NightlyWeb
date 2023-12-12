@@ -37,7 +37,7 @@ Initialize NightlyWeb by adding the following code:
 ```
 - add this few lines of code to anywhere in your html body tag.
 That's it! NightlyWEb will now toggle between light and dark modes.
-- you can the toggle button on the top right corner of your web page.
+- you can see the toggle button on the top right corner of your web page.
 
 ## Customization
 
