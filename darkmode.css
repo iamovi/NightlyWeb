@@ -44,26 +44,33 @@ body.dark-mode code,
 body.dark-mode abbr,
 body.dark-mode time,
 body.dark-mode footer {
-  color: #ffffff; /* Adjust color for headings, paragraphs, links, buttons, inputs, etc. */
+  color: #ffffff;
+  /* Adjust color for headings, paragraphs, links, buttons, inputs, etc. */
 }
+
 body.dark-mode th {
   background-color: rgba(34, 31, 31, 0.388);
 }
+
 body.dark-mode nav {
   background-color: black;
 }
+
 body.dark-mode header {
   background-color: black;
 }
 
 body.dark-mode input,
 body.dark-mode textarea {
-  background-color: #444444; /* Adjust background color for input boxes and textareas */
-  color: #ffffff; /* Adjust text color for input boxes and textareas */
+  background-color: #444444;
+  /* Adjust background color for input boxes and textareas */
+  color: #ffffff;
+  /* Adjust text color for input boxes and textareas */
 }
 
 body.dark-mode a:hover {
-  color: #ffcc00; /* Adjust color on hover for links */
+  color: #ffcc00;
+  /* Adjust color on hover for links */
 }
 
 body.dark-mode button,
@@ -73,24 +80,29 @@ body.dark-mode input[type="button"],
 body.dark-mode input[type="checkbox"],
 body.dark-mode input[type="radio"],
 body.dark-mode select {
-  background-color: #555555; /* Adjust background color for buttons, inputs, and select elements */
+  background-color: #555555;
+  /* Adjust background color for buttons, inputs, and select elements */
 }
 
 body.dark-mode pre {
-  background-color: #444444; /* Adjust background color for pre elements (code blocks) */
+  background-color: #444444;
+  /* Adjust background color for pre elements (code blocks) */
 }
 
 body.dark-mode blockquote {
-  border-left: 4px solid #555555; /* Adjust border color for blockquotes */
+  border-left: 4px solid #555555;
+  /* Adjust border color for blockquotes */
 }
 
 body.dark-mode ul,
 body.dark-mode ol {
-  color: #ffffff; /* Adjust color for list items */
+  color: #ffffff;
+  /* Adjust color for list items */
 }
 
 body.dark-mode dl {
-  color: #ffffff; /* Adjust color for definition list text */
+  color: #ffffff;
+  /* Adjust color for definition list text */
 }
 
 body.dark-mode th,
@@ -99,40 +111,50 @@ body.dark-mode td {
 }
 
 body.dark-mode figure {
-  margin: 0; /* Adjust margin for figures */
+  margin: 0;
+  /* Adjust margin for figures */
 }
 
 body.dark-mode figcaption {
-  color: #aaaaaa; /* Adjust color for figure captions */
+  color: #aaaaaa;
+  /* Adjust color for figure captions */
 }
 
 body.dark-mode fieldset {
-  border-color: #555555; /* Adjust border color for fieldset */
+  border-color: #555555;
+  /* Adjust border color for fieldset */
 }
 
 body.dark-mode legend {
-  color: #ffffff; /* Adjust color for legend */
+  color: #ffffff;
+  /* Adjust color for legend */
 }
 
 body.dark-mode mark {
-  background-color: #ffcc00; /* Adjust background color for marked text */
+  background-color: #ffcc00;
+  /* Adjust background color for marked text */
 }
 
 body.dark-mode time {
-  color: #999999; /* Adjust color for time element */
+  color: #999999;
+  /* Adjust color for time element */
 }
 
 body.dark-mode footer {
-  background-color: black; /* Adjust background color for the footer */
-  color: #ffffff; /* Adjust text color for the footer */
+  background-color: black;
+  /* Adjust background color for the footer */
+  color: #ffffff;
+  /* Adjust text color for the footer */
 }
 
 body.dark-mode footer a {
-  color: #ffcc00; /* Adjust link color in the footer */
+  color: #ffcc00;
+  /* Adjust link color in the footer */
 }
 
 body.dark-mode footer a:hover {
-  color: #ffffff; /* Adjust link color on hover in the footer */
+  color: #ffffff;
+  /* Adjust link color on hover in the footer */
 }
 
 /* Toggle switch styles */
@@ -147,7 +169,8 @@ body.dark-mode footer a:hover {
 
 /* Dark mode toggle switch styles with Unicode characters */
 .NightlyWeb label::before {
-  content: "\1F319"; /* Unicode character for moon */
+  content: "\1F319";
+  /* Unicode character for moon */
   font-size: 30px;
   margin-right: 5px;
   cursor: pointer;
@@ -155,11 +178,39 @@ body.dark-mode footer a:hover {
 
 /* Adjust Unicode character for sun */
 body.dark-mode .NightlyWeb label::before {
-  content: "\1F31E"; /* Unicode character for sun */
+  content: "\1F31E";
+  /* Unicode character for sun */
   margin-left: 5px;
   font-size: 30px;
 }
+
 .NightlyWeb input {
-  display: none; /* Hide the checkbox */
+  display: none;
+  /* Hide the checkbox */
   cursor: pointer;
+}
+
+
+
+
+/* 
+        code written by @tahsinzidane
+*/
+
+@media only screen and (max-width: 600px) {
+
+  /* Toggle switch styles */
+  .NightlyWeb {
+    top: 90vh;
+    right: 86%;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+
+  /* Toggle switch styles */
+  .NightlyWeb {
+    top: 90vh;
+    right: 86%;
+  }
 }

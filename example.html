@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Example - NightlyWeb</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.1/dist/nightlyweb.min.css" />
+    <link rel="stylesheet" href="./darkmode.css">
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -77,7 +78,7 @@
     </ol>
 
     <h2>Section 3: Image</h2>
-    <img src="https://placekitten.com/800/400" alt="Cute Kitten" />
+    <img src="https://images.unsplash.com/photo-1516594327703-65778692d14d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cute Kitten" />
 
     <h2>Section 4: Table</h2>
     <table>
@@ -100,10 +101,11 @@
 
     <footer>
       <p>
-        &copy; 2023 Example - NightlyWeb Website <br />
+        &copy; <span id="year"></span> Example - NightlyWeb Website <br />
         Made by Maruf OVi
       </p>
     </footer>
+    <script src="./darkmode.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/nightlyweb@1.0.1/dist/nightlyweb.min.js"></script>
   </body>
 </html>
